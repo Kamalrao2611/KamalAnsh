@@ -1,17 +1,27 @@
+
 import Countdown from "../components/Countdown";
-import "./Home.css"
-import Todo from "../components/Todo";
+import "./Home.css";
 import weddingImage from "../assets/weds 6.jpg";
+// import Todo from "../components/Todo";
+
 function App() {
-  return (
-    <div>
-      <p>Kamal <img src={weddingImage} height={"100px"} /> Anshu</p>
+  return (
+    <div className="home">
+      <p className="couple-title">
+        Kamal
+        <img
+          src={weddingImage}
+          alt="Kamal and Anshu"
+          className="wedding-image"
+        />
+        Anshu
+      </p>
 
-      <Countdown />
+      <Countdown />
 
-      {/* <Todo /> */}
-    </div>
-  );
+      {/* <Todo /> */}
+    </div>
+  );
 }
 
 export default App;
