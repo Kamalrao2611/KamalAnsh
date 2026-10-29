@@ -1,15 +1,3 @@
-.home {
-  width: 100%;
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
- 
-}
 
 * {
   margin: 0;
@@ -17,18 +5,45 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
+.home {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
 }
 
-p {
-  margin-top: 100px;
-  font-size: 100px;
-  color: aliceblue;
-  font-family:cursive;
+.couple-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 50px;
 }
 
-img {
+.wedding-image {
   height: 100px;
-  width: 120px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .home {
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .couple-title {
+    font-size: 28px;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .wedding-image {
+    height: 55px;
+  }
 }
