@@ -16,6 +16,12 @@
   padding: 16px;
 }
 
+.home .ours-image {
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+}
+
 .couple-title {
   display: flex;
   align-items: center;
