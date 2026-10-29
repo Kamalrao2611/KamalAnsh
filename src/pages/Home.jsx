@@ -1,17 +1,16 @@
-
 import Countdown from "../components/Countdown";
 import "./Home.css"
 import Todo from "../components/Todo";
 function App() {
-  return (
-    <div>
-      <h1>Kamal ❤️ Anshu</h1>
+  return (
+    <div>
+      <p>Kamal <img src="src\assets\weds 6.jpg" height={"100px"} /> Anshu</p>
 
-      <Countdown />
+      <Countdown />
 
-      <Todo />
-    </div>
-  );
+      {/* <Todo /> */}
+    </div>
+  );
 }
 
 export default App;
