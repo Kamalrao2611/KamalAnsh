@@ -22,6 +22,7 @@
   justify-content: center;
   gap: 10px;
   font-size: 50px;
+  font-family:cursive;
 }
 
 .wedding-image {
@@ -38,7 +39,7 @@
   }
 
   .couple-title {
-    font-size: 28px;
+    font-size: 35px;
     gap: 6px;
     flex-wrap: wrap;
   }
