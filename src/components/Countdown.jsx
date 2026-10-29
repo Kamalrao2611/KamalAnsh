@@ -52,12 +52,13 @@ function Countdown() {
   return (
     <div className="container">
       
-      <h2 style={{ fontSize: "50px" }}>
-        {timeLeft.days} Days{" "} 
-        {timeLeft.hours} Hours{" "}<br/>
-        {timeLeft.minutes} Minutes{" "}
-        {timeLeft.seconds} Seconds
-      </h2>
+      <h2>
+  {timeLeft.days} Days{" "}
+  {timeLeft.hours} Hours{" "}
+  <br />
+  {timeLeft.minutes} Minutes{" "}
+  {timeLeft.seconds} Seconds
+</h2>
     </div>
   );
 }
